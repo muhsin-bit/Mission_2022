@@ -5,25 +5,106 @@ body{
 h1{
     font-size: 50px;
 }
+
+.mission-2022 .half-width h1{
+    border-left: 3px solid tomato;
+}
+.mission-2022 .half-width p{
+    margin-bottom: 30px;
+}
 .yellow-color{
     color: yellowgreen;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+   
 }
 .half-width{
-    width: 50%;
-    padding-left: 9%;
+    width: 100%;
+    margin-left:50px;
 }
 .half-width img{
-    width: 81%;
+    width: 70%;
 }
 .linkbox-button{
     text-decoration: none;
     background-image: linear-gradient(red, tomato );
-    padding: 10px 40px;
+    
+    padding: 10px 20px;
     color: whitesmoke;
     font: 700;
     border-radius: 5px;
+}
+
+.my-mission h1{
+text-align: center;
+}
+
+
+.my-mission h1 .yellow{
+    color: yellowgreen;
+}
+
+.my-mission .mission{
+    width:30%;
+    background-color: cornflowerblue;
+        box-shadow: 5px 10px 30px gray;
+        border-radius: 20px;
+        width: 30%;
+        padding:2%;
+        margin: 2%;
+    
+}
+.my-mission .mission img{
+    width:200px;    
+}
+
+.my-mission .vision{
+
+    width:30%;
+    background-color: darkkhaki;
+        box-shadow: 5px 10px 30px gray;
+        border-radius: 20px;
+        width: 30%;
+        padding:2%;
+        margin: 2%;
+    
+}
+.my-mission .vision img{
+    width:200px; 
+}
+
+.my-mission .goal{
+    width:30%;
+    background-color: indianred;
+        box-shadow: 5px 10px 30px gray;
+        border-radius: 10px;
+        width: 30%;
+        padding:2%;
+        margin: 2%;
+    
+}
+.my-mission .goal img{
+        width:200px; 
+    }
+    .contact{
+        width:30%;
+        background-color: lightgreen;
+            box-shadow: 5px 10px 30px gray;
+            border-radius: 10px;
+            width: 30%;
+            padding:2%;
+            margin: 2%;
+        text-align: center;
+    }
+.box{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: brown;
+}
+footer .color{
+    color: yellowgreen;
 }
