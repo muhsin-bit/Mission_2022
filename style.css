@@ -1,0 +1,28 @@
+body{
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.yellow-color{
+    color: yellowgreen;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 9%;
+}
+.half-width img{
+    width: 81%;
+}
+.linkbox-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato );
+    padding: 10px 40px;
+    color: whitesmoke;
+    font: 700;
+    border-radius: 5px;
+}
